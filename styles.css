@@ -1,0 +1,71 @@
+body, h1, h2, p, ul 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+header {
+    background-color: #c71a1a;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+.hero {
+    background: url('C:\Users\Kalyani Palai\OneDrive\Desktop\Netflix_page.jpg') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+    img {
+        max-height:300%;
+    }
+
+
+.hero-content {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+.featured {
+    padding: 50px 20px;
+}
+.featured h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
